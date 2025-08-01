@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+recommender-env/
+llm-recommender-venv/
+
+# VSCode and Mac files
+.vscode/
+.DS_Store
+
+# Python env files
+.env
+
+# Data and model artifacts
+*.csv
+*.tsv
+*.json
+*.sqlite3
+*.db
+*.log
+*.bak
+
+# Ignore large files or specific artifacts
+cover-not-found.jpg
+tagged_description.txt
+books_with_emotions.csv
